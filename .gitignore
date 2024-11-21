@@ -1,1 +1,12 @@
+# Ignorar arquivos de build e dependências
+bin/
+obj/
+
+# Ignorar configurações específicas do usuário
 .vs/
+*.user
+*.suo
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
